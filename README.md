@@ -6,8 +6,10 @@ Project 6 of CS 437 Deep Learning, LUMS, Spring 2026. The first notebook makes a
 
 | Part | Notebook | What it covers |
 | --- | --- | --- |
-| 1. Pruning and knowledge distillation | [`1_pruning_and_distillation.ipynb`](notebooks/1_pruning_and_distillation.ipynb) | Unstructured and structured (channel-wise) pruning of a ResNet-34 on CIFAR-100 with per-layer sensitivity sweeps, Grad-CAM comparisons, Hinton logit-matching distillation, FitNets hint distillation, whether a larger teacher helps, and a lab that combines pruning and distillation under a fixed budget. |
-| 2. Federated learning | [`2_federated_learning.ipynb`](notebooks/2_federated_learning.ipynb) | A federated pipeline from scratch (IID, Dirichlet and quantity-skew splits over 10 clients), a check that one-epoch FedAvg equals centralized gradient descent, a FedProx sweep, client drift and training diagnostics, distracted-driver detection on State Farm (SFD3), and a fairness-aware aggregation rule. |
+| 1. Pruning and knowledge distillation | [`1_pruning_and_distillation.ipynb`](notebooks/1_pruning_and_distillation.ipynb) ([nbviewer](https://nbviewer.org/github/SameerRahil/Deep-Learning-Compression-Federated-Learning/blob/main/notebooks/1_pruning_and_distillation.ipynb)) | Unstructured and structured (channel-wise) pruning of a ResNet-34 on CIFAR-100 with per-layer sensitivity sweeps, Grad-CAM comparisons, Hinton logit-matching distillation, FitNets hint distillation, whether a larger teacher helps, and a lab that combines pruning and distillation under a fixed budget. |
+| 2. Federated learning | [`2_federated_learning.ipynb`](notebooks/2_federated_learning.ipynb) ([nbviewer](https://nbviewer.org/github/SameerRahil/Deep-Learning-Compression-Federated-Learning/blob/main/notebooks/2_federated_learning.ipynb)) | A federated pipeline from scratch (IID, Dirichlet and quantity-skew splits over 10 clients), a check that one-epoch FedAvg equals centralized gradient descent, a FedProx sweep, client drift and training diagnostics, distracted-driver detection on State Farm (SFD3), and a fairness-aware aggregation rule. |
+
+If GitHub cannot display a notebook, the nbviewer link next to it opens the same file.
 
 ## Results
 
